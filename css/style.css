@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(254, 238, 241);
+}
+header{
+    background-color: pink;
+    padding: 2px;
+}
+
+header img{
+    width: 75px;
+    display: flex;
+    margin: 5px;
+}
+h1{
+    color: black;
+    text-align: center;
+}
+h2{
+    padding-left: 25px;
+    text-align: justify;
+    color: rgb(16, 9, 10);
+}
+
+
+nav{
+    background-color: rgb(249, 209, 216);
+    padding: 10px;
+    
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    position: sticky;
+}
+section{
+    margin: 15px;
+}
+
+main img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 100px;
+}
+
+footer{
+    background-color: gray;
+    height: 50px;
+}
+
+footer p{
+    text-align: center;
+    padding: 10px;
+}
