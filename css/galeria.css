@@ -48,9 +48,7 @@ main img{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 80%;
-    margin: 10%;
-    /*height: 100vh;*/
+    height: 100vh;
     /*padding: 100px;*/
 }
 
@@ -64,4 +62,42 @@ footer p{
     padding: 10px;
 }
 
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cards h2{
+    margin-bottom: 10px;
+}
+.card{
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    gap: 50px;
+}
+
+.card:hover{
+    transform: translateY(-10px);
+}
+
+.button{
+    display: flex;
+
+}
+
+.card button{
+    display: flex;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: #2f252b;
+}
+
+.card img{
+    width: 300px;
+    height: 300px;
+    padding: 50px;
+    margin: 20px;
+}
 
