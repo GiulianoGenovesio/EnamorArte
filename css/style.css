@@ -18,6 +18,9 @@ h1{
     color: black;
     text-align: center;
 }
+
+
+
 h2{
     padding-left: 25px;
     text-align: justify;
@@ -66,4 +69,83 @@ footer p{
     padding: 10px;
 }
 
+/* Contenedor general */
+.contenedor-form {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 25px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+}
 
+/* Título */
+.contenedor-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Formulario */
+.formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Cada campo */
+.campo {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Labels */
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Inputs y textarea */
+input, textarea {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  transition: all 0.3s ease;
+  font-size: 14px;
+}
+
+/* Altura textarea */
+textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+/* Efecto al hacer click */
+input:focus, textarea:focus {
+  border-color: #007BFF;
+  outline: none;
+  box-shadow: 0 0 6px rgba(0,123,255,0.3);
+}
+
+/* Botón */
+.btn {
+  background: #007BFF;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+/* Hover botón */
+.btn:hover {
+  background: #0056b3;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .contenedor-form {
+    margin: 20px;
+  }
+}
