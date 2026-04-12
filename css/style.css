@@ -1,5 +1,6 @@
 body{
     background-color: rgb(254, 238, 241);
+    font-family: Arial, sans-serif;
 }
 header{
     /* background-color: pink; */
@@ -47,12 +48,12 @@ main img{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    padding: 100px;
+    /*padding: 100px;*/
 }
 
 footer{
     background-color: gray;
-    height: 50px;
+    height: 100px;
 }
 
 footer p{
@@ -60,7 +61,37 @@ footer p{
     padding: 10px;
 }
 
-.cards img{
-    width: 500px;
-    height: 500px;
+.cards{
+    display: flex;
+    flex-wrap: wrap;
 }
+
+.cards h2{
+    margin-bottom: 10px;
+}
+.card{
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    gap: 50px;
+}
+
+.card:hover{
+    transform: translateY(-10px);
+}
+
+.card button{
+    display: flex;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: #2f252b;
+}
+
+.card img{
+    width: 300px;
+    height: 300px;
+    padding: 50px;
+    margin: 20px;
+}
+
+
