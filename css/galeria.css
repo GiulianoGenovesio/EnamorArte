@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
 body{
     background-color: rgb(254, 238, 241);
     font-family: Arial, sans-serif;
@@ -66,16 +71,18 @@ footer p{
 .cards{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .cards h2{
     margin-bottom: 10px;
 }
 .card{
-    background: white;
+    background:  rgb(248, 209, 216);
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     gap: 50px;
+    margin: 20px;
 }
 
 .card:hover{
@@ -97,7 +104,7 @@ footer p{
 .card img{
     width: 300px;
     height: 300px;
-    padding: 50px;
+   /*  padding: 50px; */
     margin: 20px;
 }
 
