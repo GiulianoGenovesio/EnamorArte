@@ -164,9 +164,3 @@ input:focus, textarea:focus {
   color: #007BFF;
 }
 
-/* Responsive */
-@media (max-width: 600px) {
-  .contenedor-form {
-    margin: 20px;
-  }
-}
