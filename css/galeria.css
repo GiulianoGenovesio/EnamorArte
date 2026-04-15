@@ -68,6 +68,10 @@ footer p{
     padding: 10px;
 }
 
+#galeria h2{
+font-family: 'Playfair Display', serif;
+  letter-spacing: 1px;
+}
 
 .cards{
     display: flex;
