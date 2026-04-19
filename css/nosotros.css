@@ -1,11 +1,12 @@
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body{
     background-color: rgb(254, 238, 241);
-    font-family: Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     min-height: 100vh;
 }
 header{
