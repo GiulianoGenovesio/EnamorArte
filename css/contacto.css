@@ -49,6 +49,8 @@ nav ul{
 li a{
     text-decoration: none;
     position: sticky;
+    font-size: 1rem;
+    color: #ffffff;
 }
 section{
     margin: 15px;
