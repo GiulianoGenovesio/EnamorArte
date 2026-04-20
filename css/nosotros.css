@@ -6,11 +6,16 @@
 
 body{
     background-color: rgb(254, 238, 241);
-    font-family: Arial, Helvetica, sans-serif;
     min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
 }
+main{
+    flex: 1;
+}
+
 header{
-    /* background-color: pink; */
     background: #fb3fa6;
 background: linear-gradient(352deg, rgba(251, 63, 166, 1) 0%, rgba(237, 192, 200, 1) 95%);
     padding: 2px;
@@ -36,7 +41,6 @@ h2{
 
 
 nav{
-    /*background-color: rgb(249, 209, 216);*/
     background: linear-gradient(352deg, rgba(251, 63, 166, 1) 0%, rgba(237, 192, 200, 1) 95%);
     padding: 10px;
     
