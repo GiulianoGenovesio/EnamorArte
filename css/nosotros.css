@@ -1,9 +1,9 @@
-*{
+ *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
+ 
 body{
     background-color: rgb(254, 238, 241);
     min-height: 100vh;
@@ -12,20 +12,20 @@ body{
     flex-direction: column;
 }
 main{
-    flex: 1;
+    flex: 1; 
 }
 
 header{
     background: #fb3fa6;
 background: linear-gradient(352deg, rgba(251, 63, 166, 1) 0%, rgba(237, 192, 200, 1) 95%);
     padding: 2px;
-}
+} 
 
 header img{
     width: 75px;
     display: flex;
     margin: 5px;
-}
+} 
 h1{
     color: black;
     text-align: center;
