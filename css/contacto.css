@@ -18,13 +18,15 @@ background: linear-gradient(352deg, rgba(251, 63, 166, 1) 0%, rgba(237, 192, 200
 }
 
 header img{
-    width: 75px;
+    width: 110px;
     display: flex;
     margin: 5px;
+    margin-top: 15px;
 }
 header h1{
     color: black;
     text-align: center;
+    margin-top: -10px;
 }
 
 
@@ -58,12 +60,16 @@ section{
 
 footer{
     background-color: gray;
-    height: 100px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 footer p{
     text-align: center;
-    padding: 10px;
+    padding: 5px;
+    font-size: 0.9rem;
 }
 
 /* Contenedor general */
@@ -213,4 +219,12 @@ input:focus, textarea:focus {
 
 .redes-flotantes .instagram:hover{
   transform: scale(1.1);
+}
+
+@media (max-width: 480px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
 }
