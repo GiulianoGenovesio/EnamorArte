@@ -85,4 +85,35 @@ footer p{
     gap: 10px;
   }
 }
+.historia{
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    line-height: 1.8;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
 
+.historia h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.historia .intro{
+    font-style: italic;
+    font-size: 1.1rem;
+    text-align: center;
+    color: #555;
+}
+
+.historia .destacado{
+    font-weight: bold;
+    font-size: 1.05rem;
+    color: #d63384;
+    text-align: center;
+}
+
+.historia p{
+    margin-bottom: 15px;
+}
