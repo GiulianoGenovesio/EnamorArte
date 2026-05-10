@@ -123,6 +123,7 @@ font-family: 'Playfair Display', serif;
 button{
     background: #fb3fa6;
 background: linear-gradient(169deg, rgba(251, 63, 166, 1) 23%, rgba(237, 192, 200, 1) 69%);
+padding: 5px;
 
 }
 
