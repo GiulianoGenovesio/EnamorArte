@@ -25,6 +25,11 @@ const Navbar = ({ setScreen, currentScreen }) => {
             </button>
           </li>
           <li>
+            <button onClick={() => setScreen('api')} className={currentScreen === 'api' ? 'active' : ''}>
+              Colección API
+            </button>
+          </li>
+          <li>
             <button onClick={() => setScreen('contact')} className={currentScreen === 'contact' ? 'active' : ''}>
               Contacto
             </button>
