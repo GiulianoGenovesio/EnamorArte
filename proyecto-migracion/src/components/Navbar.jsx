@@ -3,12 +3,12 @@ import React from 'react';
 const Navbar = ({ setScreen, currentScreen }) => {
   return (
     <header>
-      <div className="logo-container" onClick={() => setScreen('home')} style={{ cursor: 'pointer' }}>
-        <img src="fotos/LOGO ENAMORARTE.png" alt="EnamorArte" />
-        <h1>EnamorARTE</h1>
+      <div className="logo-container">
+        <img src="fotos/LOGO ENAMORARTE.png" alt="Logo EnamorARTE" className="logo-img" />
+        <h1 className="logo">EnamorARTE</h1>
       </div>
       <nav>
-        <ul>
+        <ul className="nav-links">
           <li>
             <button onClick={() => setScreen('home')} className={currentScreen === 'home' ? 'active' : ''}>
               Bienvenidos
@@ -22,11 +22,6 @@ const Navbar = ({ setScreen, currentScreen }) => {
           <li>
             <button onClick={() => setScreen('gallery')} className={currentScreen === 'gallery' ? 'active' : ''}>
               Galeria
-            </button>
-          </li>
-          <li>
-            <button onClick={() => setScreen('api')} className={currentScreen === 'api' ? 'active' : ''}>
-              Colección API
             </button>
           </li>
           <li>
