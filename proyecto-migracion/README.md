@@ -1,16 +1,34 @@
-# React + Vite
+# EnamorARTE - Proyecto Final UTN
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+¡Bienvenidos a **EnamorARTE**! Este proyecto es una aplicación web moderna y dinámica desarrollada como trabajo práctico para la UTN. El sitio web está diseñado de forma exclusiva para un emprendimiento de artesanías y productos personalizados pintados a mano (mates, macetas, platos de mandala, entre otros).
 
-Currently, two official plugins are available:
+🔗 **Sitio web en vivo (Desplegado en Vercel):** [enamor-arte.vercel.app](https://enamor-arte.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Características del Proyecto
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **SPA (Single Page Application):** La aplicación carga una sola vez y maneja la navegación de forma interna y fluida, ofreciendo una experiencia de usuario rápida y sin recargas de página completas.
+* **Navegación Dinámica:** Estructurada mediante componentes modulares que cambian de forma reactiva según la selección del usuario.
+* **Seguridad de Navegación (404 Not Found):** Cuenta con una lógica de control de errores integrada en el enrutamiento interno. Si la aplicación detecta un estado de pantalla inválido, renderiza automáticamente una vista personalizada de "Página no encontrada" con opción de retorno al inicio.
+* **Diseño Adaptativo:** Interfaz cuidada, estilizada y pensada para reflejar la identidad visual del emprendimiento.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tecnologías Utilizadas
+
+* **React** (Librería de JavaScript para la construcción de interfaces de usuario)
+* **Vite** (Herramienta de desarrollo y empaquetador ultra rápido)
+* **JavaScript / JSX** (Lógica de programación y renderizado dinámico)
+* **HTML5 y CSS3** (Estructura y diseño de componentes)
+* **Vercel** (Plataforma en la nube para el despliegue del sitio de producción)
+
+---
+
+## 💻 Instalación y Ejecución en Local
+
+Si querés clonar este repositorio y ejecutarlo en tu computadora, seguí estos pasos dentro de la carpeta `proyecto-migracion`:
+
+1. Instalar las dependencias del proyecto:
+   ```bash
+   npm install
